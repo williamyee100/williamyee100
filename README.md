@@ -58,21 +58,6 @@ Automation           ███████████████░░░░�
 3. **Keep humans in control** — useful AI should be transparent and responsible.
 4. **Share the journey** — clear notes make every experiment more valuable.
 
-## 🔮 A thought on perception · 关于认知
-
-> 如果大千世界是光，人的认知就是一块棱镜。我们通过棱镜折射出的光感知世界，却常误以为眼前的颜色就是世界的底色。
-
-人很容易受到认知边界与情绪导向的影响，产生错误归因，把问题归结于错误的人或事。人的认知与客观事实之间始终存在距离，因此，认知需要不断被检视、修正与重塑——如同一个无限求极值的过程，让理解不断趋近事实，却始终对未知保持谦逊。
-
-<details>
-  <summary><strong>English</strong></summary>
-  <br/>
-
-  If the vast world is light, human perception is a prism. We experience the world through the light it refracts, yet often mistake those colors for the world's true foundation.
-
-  Limited knowledge and emotion can easily lead us to false attribution, placing causes on the wrong people or events. Our understanding will always differ from objective reality, so it must be continually examined, adjusted, and rebuilt—like an infinite process of seeking an extremum: always approaching the truth while remaining humble before what we do not yet know.
-</details>
-
 ## 📊 GitHub activity
 
 <div align="center">
