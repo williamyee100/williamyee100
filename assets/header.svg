@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">William Yee — Building with AI</title>
+  <desc id="desc">A purple and teal neural network themed banner for William Yee's GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#17142F"/>
+      <stop offset="1" stop-color="#102D35"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="0.2" cy="0.25" r="0.65">
+      <stop offset="0" stop-color="#7C5CFC" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7C5CFC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTeal" cx="0.82" cy="0.75" r="0.6">
+      <stop offset="0" stop-color="#18C6A3" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#18C6A3" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glowPurple)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glowTeal)"/>
+
+  <g opacity="0.26" stroke="#A99BFF" stroke-width="1.5">
+    <path d="M760 85L850 50L930 105L1030 65L1115 120"/>
+    <path d="M730 180L825 135L915 190L1015 145L1125 205"/>
+    <path d="M770 275L860 230L955 285L1045 245L1140 300"/>
+    <path d="M850 50L825 135L860 230M930 105L915 190L955 285M1030 65L1015 145L1045 245M1115 120L1125 205L1140 300"/>
+  </g>
+
+  <g fill="#8E7BFF" filter="url(#softGlow)">
+    <circle cx="760" cy="85" r="5"/><circle cx="850" cy="50" r="7"/><circle cx="930" cy="105" r="5"/>
+    <circle cx="1030" cy="65" r="6"/><circle cx="1115" cy="120" r="5"/><circle cx="730" cy="180" r="5"/>
+    <circle cx="825" cy="135" r="7"/><circle cx="915" cy="190" r="8"/><circle cx="1015" cy="145" r="6"/>
+  </g>
+  <g fill="#20D3AE" filter="url(#softGlow)">
+    <circle cx="1125" cy="205" r="7"/><circle cx="770" cy="275" r="5"/><circle cx="860" cy="230" r="7"/>
+    <circle cx="955" cy="285" r="6"/><circle cx="1045" cy="245" r="8"/><circle cx="1140" cy="300" r="5"/>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="72" y="126" fill="#A99BFF" font-size="18" font-weight="600" letter-spacing="5">HELLO, I'M</text>
+    <text x="68" y="203" fill="#FFFFFF" font-size="66" font-weight="750" letter-spacing="-1">William Yee</text>
+    <text x="72" y="255" fill="#B9C0D0" font-size="25" font-weight="400">Exploring ideas. Building with AI.</text>
+    <rect x="72" y="288" width="210" height="3" rx="1.5" fill="#20D3AE"/>
+    <text x="299" y="296" fill="#7E879B" font-size="15" letter-spacing="2">GITHUB.COM/WILLIAMYEE100</text>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="27.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>
